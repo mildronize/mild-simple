@@ -18,7 +18,7 @@ $content-background-color: #fff;
 $content-font-color: #000;
 
 
-$primary-color: #cd2653;
+$primary-color: #0057A3;
 
 
 // ---- Media Query ------
@@ -55,18 +55,23 @@ $heading-h4-font-size: 2.4rem;
 $heading-h5-font-size: 2.1rem;
 $heading-h6-font-size: 1.6rem;
 
-$md-heading-h1-font-size: 6.4rem;
-$md-heading-h2-font-size: 4.8rem;
-$md-heading-h3-font-size: 4rem;
-$md-heading-h4-font-size: 3.2rem;
-$md-heading-h5-font-size: 2.4rem;
-$md-heading-h6-font-size: 1.8rem;
+$md-heading-h1-font-size: 3rem;
+$md-heading-h2-font-size: 2.8rem;
+$md-heading-h3-font-size: 2.6rem;
+$md-heading-h4-font-size: 2.4rem;
+$md-heading-h5-font-size: 2.2rem;
+$md-heading-h6-font-size: 1.9rem;
 
 $xl-heading-h1-font-size: 3rem;
+
+$container-width: 64rem;
 
 
 // Entry Titile
 $md-h2-entry-title-font-size: 4rem; // for Blog post list title of each entry (first page)
+// Entry content
+$md-entry-content-font-size: 1.9rem; // for Blog post list title of each entry (first page)
+
 
 
 /*
@@ -87,11 +92,11 @@ $editor-heading-h4-font-size: 24px;
 $editor-heading-h5-font-size: 21px;
 $editor-heading-h6-font-size: 16px;
 
-$editor-md-heading-h1-font-size: 64px;
-$editor-md-heading-h2-font-size: 48px;
-$editor-md-heading-h3-font-size: 40px;
-$editor-md-heading-h4-font-size: 32px;
-$editor-md-heading-h5-font-size: 24px;
+$editor-md-heading-h1-font-size: 36px;
+$editor-md-heading-h2-font-size: 32px;
+$editor-md-heading-h3-font-size: 28px;
+$editor-md-heading-h4-font-size: 24px;
+$editor-md-heading-h5-font-size: 21px;
 
-$editor-xl-heading-h1-font-size: 84px;
+$editor-xl-heading-h1-font-size: 40px;
 $editor-xl-heading-h6-font-size: 18px;

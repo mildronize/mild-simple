@@ -140,10 +140,10 @@ Inter variable font. Usage:
 /* Colors ------------------------------------ */
 /* CUSTOM COLORS */
 :root .has-accent-color {
-  color: #cd2653; }
+  color: #0057A3; }
 
 :root .has-accent-background-color {
-  background-color: #cd2653;
+  background-color: #0057A3;
   color: #fff; }
 
 :root .has-primary-color {
@@ -191,7 +191,7 @@ Inter variable font. Usage:
 
 /* Typography -------------------------------- */
 .editor-styles-wrapper .editor-block-list__layout a {
-  color: #cd2653;
+  color: #0057A3;
   text-decoration: underline; }
 
 .editor-styles-wrapper a:focus,
@@ -250,7 +250,7 @@ Inter variable font. Usage:
 
 /* DROP CAP */
 .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter {
-  color: #cd2653;
+  color: #0057A3;
   font-size: 5.1em;
   font-weight: 800;
   margin: 0.05em 0.1em 0 0; }
@@ -500,7 +500,7 @@ hr.wp-block-separator.is-style-dots::before {
   margin: 0; }
 
 .editor-styles-wrapper .wp-block-quote {
-  border-color: #cd2653;
+  border-color: #0057A3;
   border-style: solid;
   border-width: 0 0 0 2px;
   margin: 20px 0;
@@ -622,7 +622,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .wp-block-pullquote::before {
   background: #fff;
   border-radius: 50%;
-  color: #cd2653;
+  color: #0057A3;
   content: "”";
   display: block;
   font-size: 62px;
@@ -721,7 +721,7 @@ hr.wp-block-separator.is-style-dots::before {
 /* Block: Button ----------------------------- */
 .editor-styles-wrapper .wp-block-button__link,
 .editor-styles-wrapper .wp-block-file__button {
-  background: #cd2653;
+  background: #0057A3;
   border-radius: 0;
   color: #fff;
   font-size: 15px;
@@ -739,7 +739,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .is-style-outline.wp-block-button__link {
   background: none;
   border-color: currentColor;
-  color: #cd2653;
+  color: #0057A3;
   padding: calc(1.1em - 2px) calc(1.44em - 2px); }
 
 /* BUTTON STYLE: SQUARED */
@@ -834,7 +834,7 @@ hr.wp-block-separator.is-style-dots::before {
   justify-content: space-between; }
 
 .editor-styles-wrapper .wp-block-file .wp-block-file__textlink {
-  color: #cd2653;
+  color: #0057A3;
   font-weight: 700;
   text-decoration: none; }
 
@@ -936,15 +936,15 @@ hr.wp-block-separator.is-style-dots::before {
   /* TYPOGRAPHY */
   .editor-post-title__block .editor-post-title__input,
   .editor-styles-wrapper .wp-block h1 {
-    font-size: 64px; }
+    font-size: 36px; }
   .editor-styles-wrapper .wp-block h2 {
-    font-size: 48px; }
-  .editor-styles-wrapper .wp-block h3 {
-    font-size: 40px; }
-  .editor-styles-wrapper .wp-block h4 {
     font-size: 32px; }
-  .editor-styles-wrapper .wp-block h5 {
+  .editor-styles-wrapper .wp-block h3 {
+    font-size: 28px; }
+  .editor-styles-wrapper .wp-block h4 {
     font-size: 24px; }
+  .editor-styles-wrapper .wp-block h5 {
+    font-size: 21px; }
   .editor-styles-wrapper li,
   .editor-styles-wrapper p,
   .editor-styles-wrapper p.wp-block-paragraph {
@@ -1037,7 +1037,7 @@ hr.wp-block-separator.is-style-dots::before {
   /* TYPOGRAPHY */
   .editor-post-title__block .editor-post-title__input,
   .editor-styles-wrapper .wp-block h1 {
-    font-size: 84px; }
+    font-size: 40px; }
   .editor-styles-wrapper .wp-block h6 {
     font-size: 18px; }
   /* BLOCK: PULLQUOTE */
