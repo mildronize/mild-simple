@@ -1,4 +1,4 @@
-=== Twenty Twenty ===
+=== Mild Simple ===
 Contributors: the WordPress team
 Tested up to: 5.5
 Stable tag: 1.5
@@ -54,8 +54,8 @@ Initial release
 
 == Copyright ==
 
-Twenty Twenty WordPress Theme, Copyright 2019-2020 WordPress.org
-Twenty Twenty is distributed under the terms of the GNU GPL.
+Mild Simple WordPress Theme, Copyright 2019-2020 WordPress.org
+Mild Simple is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -67,10 +67,10 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-Twenty Twenty is derived from the Chaplin Theme, Copyright 2019 Anders Norén
+Mild Simple is derived from the Chaplin Theme, Copyright 2019 Anders Norén
 Chaplin Theme is distributed under the terms of the GNU GPL version 2.0
 
-Twenty Twenty bundles the following third-party resources:
+Mild Simple bundles the following third-party resources:
 
 Illustrations by Tammie Lister
 License: Creative Commons Zero (CC0), https://creativecommons.org/publicdomain/zero/1.0/
@@ -80,7 +80,7 @@ Copyright (c) 2016-2019 The Inter Project Authors (me@rsms.me)
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://rsms.me/inter/
 
-Bespoke Icons Created For Twenty Twenty
+Bespoke Icons Created For Mild Simple
 License: Creative Commons Zero (CC0), https://creativecommons.org/publicdomain/zero/1.0/
 List of bespoke icons:
 - Search icon

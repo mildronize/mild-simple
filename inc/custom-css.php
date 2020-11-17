@@ -1,10 +1,10 @@
 <?php
 /**
- * Twenty Twenty Custom CSS
+ * Mild Simple Custom CSS
  *
  * @package WordPress
- * @subpackage Twenty_Twenty
- * @since Twenty Twenty 1.0
+ * @subpackage Mild_Simple
+ * @since Mild Simple 1.0
  */
 
 if ( ! function_exists( 'twentytwenty_generate_css' ) ) {

@@ -5,8 +5,8 @@
  * Handle non-latin language styles.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty
- * @since Twenty Twenty 1.0
+ * @subpackage Mild_Simple
+ * @since Mild Simple 1.0
  */
 
 if ( ! class_exists( 'TwentyTwenty_Non_Latin_Languages' ) ) {

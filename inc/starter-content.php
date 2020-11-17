@@ -1,12 +1,12 @@
 <?php
 /**
- * Twenty Twenty Starter Content
+ * Mild Simple Starter Content
  *
  * @link https://make.wordpress.org/core/2016/11/30/starter-content-for-themes-in-4-7/
  *
  * @package WordPress
- * @subpackage Twenty_Twenty
- * @since Twenty Twenty 1.0
+ * @subpackage Mild_Simple
+ * @since Mild Simple 1.0
  */
 
 /**
@@ -14,7 +14,7 @@
  *
  * Passes it through the `twentytwenty_starter_content` filter before returning.
  *
- * @since Twenty Twenty 1.0
+ * @since Mild Simple 1.0
  *
  * @return array A filtered array of args for the starter_content.
  */
@@ -207,9 +207,9 @@ function twentytwenty_get_starter_content() {
 	);
 
 	/**
-	 * Filters Twenty Twenty array of starter content.
+	 * Filters Mild Simple array of starter content.
 	 *
-	 * @since Twenty Twenty 1.0
+	 * @since Mild Simple 1.0
 	 *
 	 * @param array $starter_content Array of starter content.
 	 */

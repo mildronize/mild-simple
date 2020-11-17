@@ -1,11 +1,11 @@
 <?php
 /**
  * The template file for displaying the comments and comment form for the
- * Twenty Twenty theme.
+ * Mild Simple theme.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty
- * @since Twenty Twenty 1.0
+ * @subpackage Mild_Simple
+ * @since Mild Simple 1.0
  */
 
 /*
