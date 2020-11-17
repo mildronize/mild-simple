@@ -10,15 +10,15 @@
 
 
 .editor-styles-wrapper {
-	background: #f5efe0;
-	color: #000;
+	background: $content-background-color;
+	color: $content-font-color;
 	letter-spacing: -0.015em;
 	-moz-font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
 }
 
 .editor-styles-wrapper > * {
-	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: $base-font-family;
 	font-size: 18px;
 }
 
@@ -101,7 +101,7 @@
 .editor-styles-wrapper cite,
 .editor-styles-wrapper figcaption,
 .editor-styles-wrapper .wp-caption-text {
-	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: $base-font-family;
 }
 
 @supports ( font-variation-settings: normal ) {
@@ -128,21 +128,21 @@
 /* CUSTOM COLORS */
 
 :root .has-accent-color {
-	color: #cd2653;
+	color: $primary-color;
 }
 
 :root .has-accent-background-color {
-	background-color: #cd2653;
+	background-color: $primary-color;
 	color: #fff;
 }
 
 :root .has-primary-color {
-	color: #000;
+	color: $content-font-color;
 }
 
 :root .has-primary-background-color {
-	background-color: #000;
-	color: #f5efe0;
+	background-color: $content-font-color;
+	color: $content-background-color;
 }
 
 :root .has-secondary-color {
@@ -160,32 +160,32 @@
 
 :root .has-subtle-background-background-color {
 	background-color: #dcd7ca;
-	color: #000;
+	color: $content-font-color;
 }
 
 :root .has-background-color {
-	color: #f5efe0;
+	color: $content-background-color;
 }
 
 :root .has-background-background-color {
-	background-color: #f5efe0;
-	color: #000;
+	background-color: $content-background-color;
+	color: $content-font-color;
 }
 
 /* GENERAL COLORS */
 
 .has-black-background-color {
-	background-color: #000;
+	background-color: $content-font-color;
 	color: #fff;
 }
 
 .has-white-background-color {
 	background-color: #fff;
-	color: #000;
+	color: $content-font-color;
 }
 
 .has-black-color {
-	color: #000;
+	color: $content-font-color;
 }
 
 .has-white-color {
@@ -196,7 +196,7 @@
 /* Typography -------------------------------- */
 
 .editor-styles-wrapper .editor-block-list__layout a {
-	color: #cd2653;
+	color: $primary-color;
 	text-decoration: underline;
 }
 
@@ -214,37 +214,37 @@
 .editor-styles-wrapper .wp-block h6 {
 	font-feature-settings: "lnum";
 	font-variant-numeric: lining-nums;
-	font-weight: 700;
-	letter-spacing: -0.0415625em;
-	line-height: 1.25;
-	margin: 40px 0 25px;
+	font-weight: $editor-heading-font-weight;
+	letter-spacing: $editor-heading-letter-spacing;
+	line-height: $editor-heading-line-height;
+	margin: $editor-heading-margin;
 }
 
 .editor-post-title__block .editor-post-title__input,
 .editor-styles-wrapper .wp-block h1 {
-	font-size: 36px;
-	font-weight: 800;
-	line-height: 1.138888889;
+	font-size: $editor-heading-h1-font-size;
+	font-weight: $editor-heading-h1-font-weight;
+	line-height: $editor-heading-h1-line-height;
 }
 
 .editor-styles-wrapper .wp-block h2 {
-	font-size: 32px;
+	font-size: $editor-heading-h2-font-size;
 }
 
 .editor-styles-wrapper .wp-block h3 {
-	font-size: 28px;
+	font-size: $editor-heading-h3-font-size;
 }
 
 .editor-styles-wrapper .wp-block h4 {
-	font-size: 24px;
+	font-size: $editor-heading-h4-font-size;
 }
 
 .editor-styles-wrapper .wp-block h5 {
-	font-size: 21px;
+	font-size: $editor-heading-h5-font-size;
 }
 
 .editor-styles-wrapper .wp-block h6 {
-	font-size: 16px;
+	font-size: $editor-heading-h6-font-size;
 	letter-spacing: 0.03125em;
 	text-transform: uppercase;
 }
@@ -269,7 +269,7 @@
 /* DROP CAP */
 
 .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter {
-	color: #cd2653;
+	color: $primary-color;
 	font-size: 5.1em;
 	font-weight: 800;
 	margin: 0.05em 0.1em 0 0;
@@ -586,7 +586,7 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 .editor-styles-wrapper .wp-block-quote {
-	border-color: #cd2653;
+	border-color: $primary-color;
 	border-style: solid;
 	border-width: 0 0 0 2px;
 	margin: 20px 0;
@@ -734,7 +734,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .wp-block-pullquote::before {
 	background: #fff;
 	border-radius: 50%;
-	color: #cd2653;
+	color: $primary-color;
 	content: "”";
 	display: block;
 	font-size: 62px;
@@ -856,7 +856,7 @@ hr.wp-block-separator.is-style-dots::before {
 
 .editor-styles-wrapper .wp-block-button__link,
 .editor-styles-wrapper .wp-block-file__button {
-	background: #cd2653;
+	background: $primary-color;
 	border-radius: 0;
 	color: #fff;
 	font-size: 15px;
@@ -877,7 +877,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .is-style-outline.wp-block-button__link {
 	background: none;
 	border-color: currentColor;
-	color: #cd2653;
+	color: $primary-color;
 	padding: calc(1.1em - 2px) calc(1.44em - 2px);
 }
 
@@ -1005,7 +1005,7 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 .editor-styles-wrapper .wp-block-file .wp-block-file__textlink {
-	color: #cd2653;
+	color: $primary-color;
 	font-weight: 700;
 	text-decoration: none;
 }
@@ -1050,7 +1050,7 @@ hr.wp-block-separator.is-style-dots::before {
 /* ------------------------------------------- */
 
 
-@media ( min-width: 480px ) {
+@media ( min-width: $sm ) {
 
 
 	/* STRUCTURE */
@@ -1126,7 +1126,7 @@ hr.wp-block-separator.is-style-dots::before {
 
 }
 
-@media ( min-width: 600px ) {
+@media ( min-width: calc($md - 100) ) {
 
 
 	/* BLOCK: SHARED MEDIA STYLES */
@@ -1161,7 +1161,7 @@ hr.wp-block-separator.is-style-dots::before {
 
 }
 
-@media ( min-width: 700px ) {
+@media ( min-width: $md ) {
 
 	/* STRUCTURE */
 
@@ -1173,23 +1173,23 @@ hr.wp-block-separator.is-style-dots::before {
 
 	.editor-post-title__block .editor-post-title__input,
 	.editor-styles-wrapper .wp-block h1 {
-		font-size: 64px;
+		font-size: $editor-md-heading-h1-font-size;
 	}
 
 	.editor-styles-wrapper .wp-block h2 {
-		font-size: 48px;
+		font-size: $editor-md-heading-h2-font-size;
 	}
 
 	.editor-styles-wrapper .wp-block h3 {
-		font-size: 40px;
+		font-size: $editor-md-heading-h3-font-size;
 	}
 
 	.editor-styles-wrapper .wp-block h4 {
-		font-size: 32px;
+		font-size: $editor-md-heading-h4-font-size;
 	}
 
 	.editor-styles-wrapper .wp-block h5 {
-		font-size: 24px;
+		font-size: $editor-md-heading-h5-font-size;
 	}
 
 	.editor-styles-wrapper li,
@@ -1319,7 +1319,7 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 
-@media ( min-width: 1000px ) {
+@media ( min-width: $lg ) {
 
 
 	/* BLOCK: COLUMNS */
@@ -1344,18 +1344,18 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 
-@media ( min-width: 1220px ) {
+@media ( min-width: $xl ) {
 
 
 	/* TYPOGRAPHY */
 
 	.editor-post-title__block .editor-post-title__input,
 	.editor-styles-wrapper .wp-block h1 {
-		font-size: 84px;
+		font-size: $editor-xl-heading-h1-font-size;
 	}
 
 	.editor-styles-wrapper .wp-block h6 {
-		font-size: 18px;
+		font-size: $editor-xl-heading-h6-font-size;
 	}
 
 	/* BLOCK: PULLQUOTE */
@@ -1380,7 +1380,7 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 
-@media ( min-width: 1360px ) {
+@media ( min-width: $xxl ) {
 
 
 	/* STRUCTURE */
