@@ -371,7 +371,7 @@ body#tinymce.wp-editor.content .wp-caption .alignright {
 
 body#tinymce.wp-editor.content .alignleft {
 
-	/*rtl:ignore*/
+	
 	float: left;
 	margin-right: 25px;
 	max-width: 260px;
@@ -379,7 +379,7 @@ body#tinymce.wp-editor.content .alignleft {
 
 body#tinymce.wp-editor.content .alignright {
 
-	/*rtl:ignore*/
+	
 	float: right;
 	margin-left: 25px;
 	max-width: 260px;
